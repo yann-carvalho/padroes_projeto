@@ -1,0 +1,17 @@
+package br.com.yanncarvalho.contas;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Conta c = new Conta();
+		c.saldo = 1000;
+		c.limite = 4000;
+		c.nome = "Yann";
+		c.numero = 488364;
+		System.out.println("Saldo da conta " + c.numero + ": " + c.saldo);
+		
+		
+	}
+
+}
