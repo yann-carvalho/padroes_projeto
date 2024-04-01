@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         // Criando instâncias de Carro e Moto
-        Carro carro1 = new Carro("Toyota", 2020, 4, "Automática");
-        Carro carro2 = new Carro("Honda", 2018, 4, "Manual");
+        Carro carro1 = new Carro("Toyota", 1995, 4, "Automática");
+        Carro carro2 = new Carro("Honda", 2003, 4, "Manual");
 
-        Moto moto1 = new Moto("Yamaha", 2019, 250, "Elétrica");
-        Moto moto2 = new Moto("Suzuki", 2021, 600, "Kick");
+        Moto moto1 = new Moto("Yamaha", 2005, 250, "Elétrica");
+        Moto moto2 = new Moto("Suzuki", 2008, 600, "Kick");
 
         // Definindo se os carros estão aptos para rodar em áreas restritas
         carro1.setAptoParaRodarEmAreasRestritas(true);
