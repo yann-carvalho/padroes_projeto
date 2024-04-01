@@ -1,17 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // Criando instâncias de Carro e Moto
         Carro carro1 = new Carro("Toyota", 1995, 4, "Automática");
         Carro carro2 = new Carro("Honda", 2003, 4, "Manual");
 
         Moto moto1 = new Moto("Yamaha", 2005, 250, "Elétrica");
         Moto moto2 = new Moto("Suzuki", 2008, 600, "Kick");
 
-        // Definindo se os carros estão aptos para rodar em áreas restritas
         carro1.setAptoParaRodarEmAreasRestritas(true);
         carro2.setAptoParaRodarEmAreasRestritas(false);
 
-        // Exibindo detalhes dos carros
         System.out.println("Detalhes do carro 1:");
         System.out.println("Marca: " + carro1.getMarca());
         System.out.println("Ano de Fabricação: " + carro1.getAnoFabricacao());
@@ -26,7 +23,6 @@ public class Main {
         System.out.println("Tipo de Transmissão: " + carro2.getTipoTransmissao());
         System.out.println("Apto para rodar em áreas restritas? " + (carro2.isAptoParaRodarEmAreasRestritas() ? "Sim" : "Não"));
 
-        // Exibindo detalhes das motos
         System.out.println("\nDetalhes da moto 1:");
         System.out.println("Marca: " + moto1.getMarca());
         System.out.println("Ano de Fabricação: " + moto1.getAnoFabricacao());
