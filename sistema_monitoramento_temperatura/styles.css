@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     color: white;
-    background-image: url('https://vivoverde.com.br/wp-content/uploads/2020/01/weather_capa-720x434.jpg');
+    background-image: url('https://github.com/yann-carvalho/padroes_projeto/blob/main/sistema_monitoramento_temperatura/weather_capa-720x434.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: rgba(0, 0, 0, 0.5); Adiciona uma camada preta com 50% de opacidade */
