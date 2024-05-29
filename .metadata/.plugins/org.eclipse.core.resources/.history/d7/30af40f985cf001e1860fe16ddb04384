@@ -1,0 +1,15 @@
+package br.com.yanncarvalho.contas;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Conta c = new Conta(204617, "Yann Carvalho", 1000.00, 500.00);
+		
+		c.sacar(150.00);
+		
+		System.out.println("Número da conta: " + c.numero);
+		System.out.println("Saldo: " + c.saldo);
+	}
+
+}
