@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/yannsoares/UNIESP/P3/padroes_projeto/.metadata/.plugins/org.eclipse.jdt.core
+2423231974.index
+1865797976.index
+3939171498.index
