@@ -9,6 +9,8 @@ body {
     background-image: url('https://vivoverde.com.br/wp-content/uploads/2020/01/weather_capa-720x434.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.5); Adiciona uma camada preta com 50% de opacidade */
+    /* background-blend-mode: darken; Escurece a imagem de fundo */
 }
 
 .container {
@@ -91,13 +93,11 @@ h1 {
     0 0 2px #000;
 }
 
-
 @media (max-width: 768px) {
     .container {
         width: 70% !important;
     }
 }
-
 
 @media (max-width: 480px) {
     .container {
